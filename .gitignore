@@ -1,5 +1,12 @@
 # Data
 /data
+/images
+
+# Models
+/models
+
+# Logs
+/logs
 
 # Junk Files
 .DS_Store
