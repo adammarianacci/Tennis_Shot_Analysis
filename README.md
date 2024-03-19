@@ -48,6 +48,23 @@ The limitations of this dataset was that it was a fairly small dataset for model
 
 Adding more variance to the dataset. 
 - Gathering images of different people hitting forehands and backhands from different camera angles in different backgrounds.
-- Gathering images of other tennis shots such as volleys, overheads and serves.
+- Gathering images of one-handed backhands.
 
 
+## For More Information
+
+
+See the full analysis in the [Jupyter Notebook](https://github.com/adammarianacci/Twitter_Analysis/blob/master/notebook.ipynb) or review this [presentation](https://github.com/adammarianacci/Twitter_Analysis/blob/master/presentation.pdf).
+
+For additional info, contact Adam Marianacci (mailto:adam.marianacci@gmail.com)
+
+
+## Repository Structure
+
+```
+├── data
+├── images
+├── README.md
+├── presentation.pdf
+└── notebook.ipynb
+```
