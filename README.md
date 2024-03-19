@@ -1,6 +1,6 @@
 # Business Understanding
 
-To help companies with computer vision for their A.I. tennis ball machine.
+To help companies with computer vision for their A.I. tennis ball machines.
 
 # Data Understanding
 
@@ -18,11 +18,11 @@ I created the dataset used for this project. It consisted of a balanced class of
 
 - Convolutional Neural Network (CNN) designed for binary classification set to 20 epochs.
 
-- Convolutional Neural Network set to 3 epochs. (See Evaluation section for full analysis.
+- Convolutional Neural Network set to 3 epochs. (See Evaluation section for full analysis)
 
 # Evaluation
 
-My best performing model was the CNN with an 'Adam' optomizer, loss function set to 'Binary Cross-Entropy' trained over 3 epochs. The model was showing 100% accuracy scores on training and testing data. The model is most likely overfitting due to low variance in my data making it over confident.
+My best performing model was the CNN with an 'Adam' optomizer and loss function set to 'Binary Cross-Entropy' trained over 3 epochs. The model was showing 100% accuracy scores on training and testing data. The model is most likely overfitting due to low variance in my data making it over confident.
 
 ![accuracy](images/accuracy.png)
 ![loss](images/loss.png)
@@ -32,20 +32,22 @@ My best performing model was the CNN with an 'Adam' optomizer, loss function set
 
 The model is performing as well as it can on training and testing data. However we should be suspicious of these 100% accuracy scores because of the extremly low variance of the data used. In order for this model to be used in the real world it needs to be given a significant amount of data with a lot more variance. Some examples of the variance it needs are images of different people of all ages in different background settings.
 
+![confusionmatrix](images/confusionmatrix.png)
+
 
 ## Limitations
 
-The limitations of this dataset was that I only used images of myself hitting forehands and backhands in a few locations from a couple different camera angles. This reason most likely led to the model overfitting. To build a more robust model I will have to add a lot more variance to the data.
+The limitations of this dataset was that it was a fairly small dataset for modeling purposes. I only used images of myself hitting forehands and backhands in a few different locations from a couple different camera angles. This most likely led to the model being overconfident. To build a more robust model I will have to add a lot more variance to the data.
 
 ## Recommendations
 
 - Increase the amount of variance in the dataset.
-- Use images from start of swing preparation until completion of swing.
+- Use images from the start of swing preparation until the completion of the swing.
 
 ## Next Steps
 
 Adding more variance to the dataset. 
 - Gathering images of different people hitting forehands and backhands from different camera angles in different backgrounds.
-- Gathering images of other tennis shots such as volleys, overheads to takes things further from just binary classification.
+- Gathering images of other tennis shots such as volleys, overheads and serves.
 
 
