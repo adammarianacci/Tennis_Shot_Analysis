@@ -22,7 +22,7 @@ I created the dataset used for this project. It consisted of a balanced class of
 
 # Evaluation
 
-My best performing model was the CNN with an 'Adam' optomizer and loss function set to 'Binary Cross-Entropy' trained over 3 epochs. The model was showing 100% accuracy scores on training and testing data. The model is most likely overfitting due to low variance in my data making it over confident.
+My best performing model was the CNN with an 'Adam' optomizer and loss function set to 'Binary Cross-Entropy' trained over 3 epochs. I adjusted the model from 20 epochs to 3 because the model was quickly acheiving a 100% accuracy score so this approximately saved about 1 hour of training time. The model was showing 100% accuracy scores on training and testing data. The model is most likely overfitting due to the low variance in my data making it over confident.
 
 ![accuracy](images/accuracy.png)
 ![loss](images/loss.png)
@@ -37,7 +37,7 @@ The model is performing as well as it can on training and testing data. However 
 
 ## Limitations
 
-The limitations of this dataset was that it was a fairly small dataset for modeling purposes. I only used images of myself hitting forehands and backhands in a few different locations from a couple different camera angles. This most likely led to the model being overconfident. To build a more robust model I will have to add a lot more variance to the data.
+The limitations of this dataset was that it was a fairly small dataset for modeling purposes. I only used images of myself hitting forehands and backhands in a few different locations from a couple different camera angles. This most likely led to the model being overconfident. To build a more robust model I will have to add a lot more variance to the data. Additionally the data only consisted of two handed backhand shots and not one-handed backhand shots.
 
 ## Recommendations
 
