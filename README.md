@@ -1,6 +1,6 @@
 # Business Understanding
 
-To help Tensa with computer vision for their A.I. tennis ball machine.
+To help companies with computer vision for their A.I. tennis ball machine.
 
 # Data Understanding
 
@@ -30,6 +30,8 @@ My best performing model was the CNN with an 'Adam' optomizer, loss function set
 
 # Conclusion
 
+The model is performing as well as it can on training and testing data. However we should be suspicious of these 100% accuracy scores because of the extremly low variance of the data used. In order for this model to be used in the real world it needs to be given a significant amount of data with a lot more variance. Some examples of the variance it needs are images of different people of all ages in different background settings.
+
 
 ## Limitations
 
@@ -37,9 +39,13 @@ The limitations of this dataset was that I only used images of myself hitting fo
 
 ## Recommendations
 
+- Increase the amount of variance in the dataset.
+- Use images from start of swing preparation until completion of swing.
+
 ## Next Steps
 
 Adding more variance to the dataset. 
-Gathering images of different people hitting forehands and backhands from different camera angles in different backgrounds.
+- Gathering images of different people hitting forehands and backhands from different camera angles in different backgrounds.
+- Gathering images of other tennis shots such as volleys, overheads to takes things further from just binary classification.
 
 
