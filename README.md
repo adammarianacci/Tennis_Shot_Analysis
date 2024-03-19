@@ -14,9 +14,16 @@ Dataset:[ForehandsandBackhands](https://www.kaggle.com/datasets/adammarianacci/f
 
 # Data Preparation
 
-   I started by filming myself in a few different locations hitting approximately 200 forehands and 200 backhands. I then used an open source editing program called "Shotcut" to edit all of my swings from the start of my swing up until the point of contact with the tennis ball. I eventually added images that included more of a complete swing. I then converted these edited videos into mp4 format so that they could be extracted into frames.
-    I extracted the frames into folders and labeled the frames as either belonging to one of two classes, "1" for forehand and "0" for backhand. I constructed an iterator into my pipeline to be able to call on specific "batches" of data. I then scaled my data for optimization in the pipeline to make sure that all the images used were the same size.
-    I then set up a train, test, split which was 80% for training, 10% for validation, and 10% for testing. I then set up a way to save and load my data after it has been trained into my pipeline so that more data could be input in the future.
+- I started by filming myself in a few different locations hitting approximately 200 forehands and 200 backhands. I then used an open source editing program called "Shotcut" to edit all of my swings from the start of my swing up until the point of contact with the tennis ball.
+
+- I then converted these edited videos into mp4 format so that they could be extracted into frames.
+    - I extracted the frames into folders and labeled the frames as either belonging to one of two classes, "1" for forehand and "0" for backhand. 
+    - One video shot clip yielded roughly 15 frames.
+
+- I constructed an iterator into my pipeline to be able to call on specific "batches" of data. 
+    - I then scaled my data for optimization in the pipeline to make sure that all the images used were the same size.
+
+- Finally I set up a train, test, split which was 80% for training, 10% for validation, and 10% for testing. I then set up a way to save and load my data after it has been trained into my pipeline so that more data could be input in the future.
 
 # Modeling
 
