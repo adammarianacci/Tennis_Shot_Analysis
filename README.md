@@ -6,7 +6,11 @@ To help companies with computer vision for their A.I. tennis ball machines.
 
 I created the dataset used for this project. It consisted of a balanced class of approximately 6,000 images of myself hitting forehand and backhand tennis shots. The data used for this project enabled me to build a convolutional neural network model for image classification. This model will aid in the ball machine being able to detect whether a player is hitting a forehand or backhand for training purposes. The limitations of this dataset was that it was fairly small and only consisted of images of myself from a couple different camera angles.
 
+Dataset:[ForehandsandBackhands](https://www.kaggle.com/datasets/adammarianacci/forehands-and-backhands)
+
 ![forehandshot](images/forehandvids_493.jpg)
+
+
 
 # Data Preparation
 
