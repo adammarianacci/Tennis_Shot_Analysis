@@ -43,7 +43,7 @@ My best performing model was the CNN with an 'Adam' optomizer and loss function 
 
 The model is performing as well as it can on training and testing data. However we should be suspicious of these 100% accuracy scores because of the extremly low variance of the data used. In order for this model to be used in the real world it needs to be given a significant amount of data with a lot more variance. Some examples of the variance it needs are images of different people of all ages in different background settings.
 
-![confusionmatrix](images/confusionmatrix.png)
+![confusionmatrix](confusionmatrix.png)
 
 
 ## Limitations
