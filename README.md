@@ -58,7 +58,7 @@ Adding more variance to the dataset.
 ## For More Information
 
 
-See the full analysis in the [Jupyter Notebook](https://github.com/adammarianacci/Twitter_Analysis/blob/master/notebook.ipynb) or review this [presentation](https://github.com/adammarianacci/Twitter_Analysis/blob/master/presentation.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/adammarianacci/Tennis_Shot_Analysis/blob/master/notebook.ipynb) or review this [presentation](https://github.com/adammarianacci/Tennis_Shot_Analysis/blob/master/presentation.pdf).
 
 For additional info, contact Adam Marianacci (mailto:adam.marianacci@gmail.com)
 
